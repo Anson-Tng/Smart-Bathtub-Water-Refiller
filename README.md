@@ -25,8 +25,10 @@ The purpose of this project is to use tools and code to create a “smart bathtu
 
 
 Figure 1: Arduino components
- 
+![alt text](https://github.com/Anson-Tng/Smart-Bathtub-Water-Refiller-/blob/main/Assignment%202/pictures/1.png)
+
 Figure 2: Mainboard Arduino MEGA 2560
+![alt text](https://github.com/Anson-Tng/Smart-Bathtub-Water-Refiller-/blob/main/Assignment%202/pictures/2.jpg)
 
 # Learning progress
 
@@ -48,6 +50,7 @@ In order to learn how the Arduino works, I’ve referred to many online tutorial
 
  
 Figure 3: Breadboard with the components
+![alt text](https://github.com/Anson-Tng/Smart-Bathtub-Water-Refiller-/blob/main/Assignment%202/pictures/3.jpg)
 
 For the illustrative purpose of building the prototype, following are the assumptions made for the design:
 
@@ -60,7 +63,7 @@ o	(LED light off = water tap off; stop pouring the water manually)
 •	A small measuring cup as a replacement for the bathtub (Please refer to Figure 4).
 
 Figure 4: Prototype
-
+![alt text](https://github.com/Anson-Tng/Smart-Bathtub-Water-Refiller-/blob/main/Assignment%202/pictures/4.jpg)
 
 
 # Algorithm
@@ -81,6 +84,7 @@ All the component’s variables are set in the Void setup (), and all the codes 
 
  
 Figure 5: Smart Bathtub water refiller Architecture
+![alt text](https://github.com/Anson-Tng/Smart-Bathtub-Water-Refiller-/blob/main/Assignment%202/pictures/5.jpg)
 
 The Appliance diagram is made up of Cirkit Studio, as shown in Figure 5. Due to some of the Arduino components not being available in the Cirkit Studio, the Architecture built was for reference; the actual appliance picture will be attached in Appendix B.
 
@@ -102,6 +106,7 @@ Arduino components used:
 
 To turn on the water on time (LED light on), the first IF statement is used when the time is at 7AM. Then the second IF statement is used with DO-WHILE statement to execute the following scenario: 
 •	Scenario 1: If water is already at the ideal level, then no action on the water tap.
+
 •	Scenario 2: If water is below the ideal level, then turn on the water tap (LED lights on).
 
 
@@ -117,44 +122,6 @@ Arduino components used:
 # Resolution 2
 
 To wake the user up, the IF Statement is used to trigger buzzer once the water reaches the high-water level. The buzzer will be ringing for 20 seconds, and LCD will display a message to tell user it is time to shower.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
